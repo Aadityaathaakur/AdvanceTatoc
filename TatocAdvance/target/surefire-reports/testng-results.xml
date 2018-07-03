@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TatocTest" duration-ms="3758" started-at="2018-06-27T04:49:27Z" finished-at="2018-06-27T04:49:31Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="3758" started-at="2018-06-27T04:49:27Z" finished-at="2018-06-27T04:49:31Z">
+      <class name="TatocTest">
+        <test-method status="PASS" signature="basicCource()[pri:0, instance:TatocTest@793f29ff]" name="basicCource" duration-ms="160" started-at="2018-06-27T10:19:27Z" finished-at="2018-06-27T10:19:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicCource -->
+        <test-method status="PASS" signature="greenBox()[pri:0, instance:TatocTest@793f29ff]" name="greenBox" duration-ms="174" started-at="2018-06-27T10:19:27Z" depends-on-methods="TatocTest.basicCource" finished-at="2018-06-27T10:19:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- greenBox -->
+        <test-method status="PASS" signature="matchBox()[pri:0, instance:TatocTest@793f29ff]" name="matchBox" duration-ms="2517" started-at="2018-06-27T10:19:27Z" depends-on-methods="TatocTest.greenBox" finished-at="2018-06-27T10:19:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- matchBox -->
+        <test-method status="PASS" signature="dragAndDrop()[pri:0, instance:TatocTest@793f29ff]" name="dragAndDrop" duration-ms="259" started-at="2018-06-27T10:19:30Z" depends-on-methods="TatocTest.matchBox" finished-at="2018-06-27T10:19:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop -->
+        <test-method status="PASS" signature="launchPopUp()[pri:0, instance:TatocTest@793f29ff]" name="launchPopUp" duration-ms="364" started-at="2018-06-27T10:19:30Z" depends-on-methods="TatocTest.dragAndDrop" finished-at="2018-06-27T10:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPopUp -->
+        <test-method status="PASS" signature="cookieAdd()[pri:0, instance:TatocTest@793f29ff]" name="cookieAdd" duration-ms="208" started-at="2018-06-27T10:19:31Z" depends-on-methods="TatocTest.launchPopUp" finished-at="2018-06-27T10:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookieAdd -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:TatocTest@793f29ff]" name="closebrowser" is-config="true" duration-ms="68" started-at="2018-06-27T10:19:31Z" finished-at="2018-06-27T10:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- TatocTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- TatocTest -->
+</testng-results>
